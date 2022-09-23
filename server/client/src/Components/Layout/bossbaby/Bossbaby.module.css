@@ -1,0 +1,45 @@
+.parent {
+  display: grid;
+  grid-template-columns: 0.9fr 1.7fr;
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: none;
+  font-family: Manrope, sans-serif;
+}
+.ftext {
+  text-align: center;
+  font-family: Manrope, sans-serif;
+  padding: 5px;
+  font-size: 3vw;
+}
+.typewriter {
+  color: #127c71;
+  font-weight: bold;
+}
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  .div1{
+    width: 130px;
+    margin-left: 30px;
+  }
+  .ftext{
+    font-size: 6vw;
+  }
+}

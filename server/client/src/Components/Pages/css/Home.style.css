@@ -1,0 +1,18 @@
+/* .container{
+    padding: 0px 10vw;
+    margin-top: 80px;
+} */
+
+.linkContainer{
+    text-align: center;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.link{
+    font-weight: bolder;
+
+}

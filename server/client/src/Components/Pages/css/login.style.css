@@ -1,0 +1,41 @@
+.container{
+    background-color: #f2f2f2;
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxForm{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 15px;
+}
+
+.outlinedInput{
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 450px;
+    margin: 7px 0;
+}
+
+.h5{
+    font-weight: 600;
+}
+
+.formhelperText{
+    font-weight: 600;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+}
+
+.button{
+    width:450px;
+    border-radius: 20px;
+    height: 40px;
+}
+

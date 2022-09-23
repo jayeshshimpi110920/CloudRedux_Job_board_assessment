@@ -1,0 +1,73 @@
+.container1{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0px !important;
+}
+
+.boxSearch {
+  background-color: white;
+  margin: 0;
+  height: 250px;
+}
+
+.banimg {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outerSearchGrid {
+  margin-top: 50px;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.h5 {
+  color: #6f78a5;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.outlinedInput {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.formhelperText {
+  color: #085ff7;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.companiesHiring {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+}
+
+.company {
+  background-color: #f0f0f0;
+}
+
+.ftext {
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+
+  font-family: "Comfortaa cursive";
+}
+
+@media only screen and (max-width: 600px) {
+  .ftext {
+    font-size: 4vh;
+  }
+}

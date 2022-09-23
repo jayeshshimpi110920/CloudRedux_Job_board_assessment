@@ -1,0 +1,58 @@
+.input{
+    width: 100%;
+    height: 45px;
+}
+
+.removeMargin{
+    margin: 0;
+}
+.findJob{
+    height:55px; 
+}
+.classes{
+    width: 500px;
+    border: 1px solid grey;
+}
+
+.searchForm{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+}
+
+.btn_Container{
+    display: flex;
+    align-items: flex-end;
+}
+
+btn_Container:single-button{
+    width: 100%;
+    height: 45%;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.suggestionInput{
+    position: relative;
+}
+
+.autocontainer{
+    border: 1px solid grey;
+    width: 99%;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 10;
+    padding-bottom: 30px;
+    position: absolute;
+
+}
+@media only screen and (max-width: 600px) {
+    .findJob{
+        margin:auto;
+        margin-top:10px;
+    }
+  }
+

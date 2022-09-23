@@ -1,0 +1,54 @@
+.root {
+    flex-grow: 1;
+    /* background-color: #fff; */
+  }
+  .toolbar {
+    border-bottom: 1px solid rgb(192, 188, 188);
+    margin: 1%;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 45px;
+  }
+  title {
+    flex-grow: 1;
+    align-self: flex-end;
+  }
+  .navigation {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header_left {
+    display: flex;
+    max-width: 50%;
+  }
+  .header_right {
+    display: flex;
+  }
+  .leftIcon {
+    margin-right: 10px;
+  }
+  .link {
+    display: flex;
+    margin-left: 14px;
+    align-items: center;
+  }
+  .link > a {
+    margin-left: 20px;
+  }
+  .typography {
+  
+    padding-right: 20px;
+    color: black;
+  }
+  
