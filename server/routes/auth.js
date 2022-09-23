@@ -1,3 +1,13 @@
+
+//While deployment on heroku getting an error so we did all things... in main server.js file only
+// All task commented..!!
+
+
+
+
+
+
+
 // import express from "express"
 // import mongoose from "mongoose";
 // import jwt from "jsonwebtoken"

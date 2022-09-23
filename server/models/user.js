@@ -1,3 +1,11 @@
+
+//While deployment on heroku getting an error so we did all things... in main server.js file only
+// All task commented..!!
+
+
+
+
+
 // import mongoose from "mongoose";
 // const userSchema = new mongoose.Schema({
 //     name: String,
